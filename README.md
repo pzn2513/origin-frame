@@ -12,9 +12,9 @@ github.com/pzn2513/origin-frame
 ## Version-0.1.0目录结构
 
 ~~~
-www  WEB部署目录（或者子目录）==
-├─template      页面每个组件的html+css+js，将由父级组件（页面）的js组织动态加载，命名冲突情况目前可控
-├─js            应用目录
+www  WEB部署目录==
+├─template      页面每个组件的html+css+js，最后将通过巧妙的页面设计，写入父级组件（页面）的js动态加载
+├─js            
 │  ├─lib        高频实用的js函数库，例如数据处理=>data.js，交互（例如模板渲染与双向绑定）=>interact.js,专门处理url请求=>url.js
 │  ├─commom     自定义的公共调用函数
 ├─source        图片、字体（推荐iconfont.com，管理一套自己熟悉的）、文件等资源文件
