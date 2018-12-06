@@ -2,10 +2,10 @@
 ### 宗旨：高效与自由
 ## Version-0.1.0目录结构
 
-~~~
+~~~diff
 部署目录==
-+++├─template      页面每个组件的html+css+js，最后将通过巧妙的页面设计，写入父级组件（页面）的js动态加载
-++├─js            
++├─template      页面每个组件的html+css+js，最后将通过巧妙的页面设计，写入父级组件（页面）的js动态加载
++ ├─js            
 │  ├─lib        高频实用的js函数库，例如数据处理=>data.js，交互（例如模板渲染与双向绑定）=>interact.js,url请求=>url.js等
 │  ├─commom     自定义的公共调用函数
 ├─source        图片、字体（推荐iconfont.com，管理一套自己熟悉的）、文件等资源文件
